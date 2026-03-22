@@ -13,16 +13,16 @@ class Meny:
         self._check_message_success(button_widget, message)
         print(message.message)
 
-    def button2_callback(self, button_widget):
+    def button2_callback(self, button_widget= None):
         print("Knapp 2 aktiverad: Öppnar inställningar")
 
-    def button3_callback(self, button_widget):
+    def button3_callback(self, button_widget= None):
         print("Knapp 3 aktiverad: Sparar data")
 
-    def button4_callback(self, button_widget):
+    def button4_callback(self, button_widget= None):
         print("Knapp 4 aktiverad: Laddar om")
 
-    def button5_callback(self, button_widget):
+    def button5_callback(self, button_widget= None):
         print("Knapp 5 aktiverad: Avslutar programmet")
         root.quit()
 
